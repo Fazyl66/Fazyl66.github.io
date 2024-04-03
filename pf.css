@@ -572,6 +572,10 @@ font-size: 35px; }
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
   .cursor { height: 20px; width: 20px; }
   .cursor-shadow { height: 20px; width: 20px; }
+  .email{font-size: 12px;
+    margin-top: 6%;}
+    .batman{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: smaller;
   .card__content p{
     font-size:12px ;
     margin-top: -80px;
