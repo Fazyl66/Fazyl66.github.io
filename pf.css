@@ -184,7 +184,7 @@ h4{
   /* Experiences cards */
   :root {
     --card-height: 20vw;
-    --card-margin: 2vw;
+    --card-margin: 10vw;
     --card-top-offset: 3em;
     --numcards: 3;
     --outline-width: 0px;
@@ -533,6 +533,49 @@ opacity: 1;
   font-size: 24px;
   padding: 5px 10px; /* Adjust padding as needed */
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  
+
+  
+  /* Adjust font sizes */
+  h1 { font-size: 16px; }
+  h2 { font-size: 24px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 35px; }
+  h3 { font-size: 18px; }
+  h4 { font-size: 14px; }
+  h5 { font-size: 16px; }
+  h6 { font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:xx-large; }
+  h7 {font-size: 18px;
+    margin-top:-110px; }
+  h8 { font-size: 16px; }
+  p { font-size: 14px; }
+  
+  /* Adjust padding and margins */
+  .container { padding-left: 10px; padding-right: 10px; }
+  .article { padding-left: 10px; }
+  .pinterest { margin-left: 10px; margin-right: 10px; }
+  
+  .card-container { padding-top: 130px;}
+  .card{height:128px;
+  width: 120px;}
+  .contact { margin-top: 10%; }
+  .batman { margin-left: 10%; }
+  
+  /* Adjust sizes of certain elements */
+  .preload-text { font-size: 130px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+  .cursor { height: 20px; width: 20px; }
+  .cursor-shadow { height: 20px; width: 20px; }
+  .card__content p{
+    font-size:12px ;
+    margin-top: -80px;
+}
 }
 
 
