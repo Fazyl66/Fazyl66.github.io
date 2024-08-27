@@ -52,6 +52,11 @@ h1 {
     animation: glitch-2 2s linear infinite reverse;
 
 }
+footer{
+  font-size: 13px;
+  color: gray;
+  opacity: 60%;
+}
 @keyframes glitch-1 {
     0% {
       clip: rect(132px, auto, 101px, 30px);
